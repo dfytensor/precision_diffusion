@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+*.so
+*.dll
+
+# PyTorch model files (large, downloadable)
+*.pt
+
+# Temp files
+*.tmp
+*.bak
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Log files (large output)
+*_log.txt
+output_log.txt
+
+# Large npz cache (can be regenerated)
+v10_validation_output/latents_cache.npz

@@ -1,0 +1,32 @@
+{
+  "Uniform_4b": {
+    "psnr": 32.262224100910416,
+    "bpp": 32.09375,
+    "bits_per_pos": 32
+  },
+  "Uniform_6b": {
+    "psnr": 37.77463893084539,
+    "bpp": 36.09375,
+    "bits_per_pos": 48
+  },
+  "Uniform_8b": {
+    "psnr": 39.449925462701195,
+    "bpp": 40.09375,
+    "bits_per_pos": 64
+  },
+  "RVQ_2stages": {
+    "psnr": 36.37331611764086,
+    "bpp": 28.09375,
+    "bits_per_pos": 16
+  },
+  "RVQ_3stages": {
+    "psnr": 38.031325385488636,
+    "bpp": 30.09375,
+    "bits_per_pos": 24
+  },
+  "RVQ_4stages": {
+    "psnr": 39.02442235829672,
+    "bpp": 32.09375,
+    "bits_per_pos": 32
+  }
+}

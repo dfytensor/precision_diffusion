@@ -1,0 +1,37 @@
+{
+  "RVQ 1 stages (8 bits/pos)": {
+    "psnr": 12.264657482653138,
+    "bpp": 5.7646484375,
+    "bits_per_pos": 8
+  },
+  "RVQ 2 stages (16 bits/pos)": {
+    "psnr": 13.112910243712708,
+    "bpp": 7.7646484375,
+    "bits_per_pos": 16
+  },
+  "RVQ 3 stages (24 bits/pos)": {
+    "psnr": 13.557181325229905,
+    "bpp": 9.7646484375,
+    "bits_per_pos": 24
+  },
+  "RVQ 4 stages (32 bits/pos)": {
+    "psnr": 13.51704101388585,
+    "bpp": 11.7646484375,
+    "bits_per_pos": 32
+  },
+  "Uniform 4b (32 bits/pos)": {
+    "psnr": 13.460624855453124,
+    "bpp": 11.7646484375,
+    "bits_per_pos": 32
+  },
+  "Uniform 6b (48 bits/pos)": {
+    "psnr": 14.607888442315101,
+    "bpp": 15.7646484375,
+    "bits_per_pos": 48
+  },
+  "Uniform 8b (64 bits/pos)": {
+    "psnr": 14.74973214331595,
+    "bpp": 19.7646484375,
+    "bits_per_pos": 64
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "16": {
+    "K-means": {
+      "mse": 16.32118034362793
+    },
+    "Lloyd-Max": {
+      "mse": 16.317731857299805
+    },
+    "PD:KM+no_noise": {
+      "mse": 16.32482147216797
+    },
+    "PD:KM+adaptive_cos": {
+      "mse": 16.392253875732422
+    },
+    "PD:Random+fixed_cos": {
+      "mse": 16.60479736328125
+    },
+    "PD:Random+adaptive_cos": {
+      "mse": 16.80861473083496
+    },
+    "K-means:from_random": {}
+  },
+  "64": {
+    "K-means": {
+      "mse": 16.083765029907227
+    },
+    "Lloyd-Max": {
+      "mse": 16.07840919494629
+    },
+    "PD:KM+no_noise": {
+      "mse": 16.095611572265625
+    },
+    "PD:KM+adaptive_cos": {
+      "mse": 16.21405792236328
+    },
+    "PD:Random+fixed_cos": {
+      "mse": 16.45867156982422
+    },
+    "PD:Random+adaptive_cos": {
+      "mse": 16.538814544677734
+    },
+    "K-means:from_random": {}
+  },
+  "256": {
+    "K-means": {
+      "mse": 16.001035690307617
+    },
+    "Lloyd-Max": {
+      "mse": 15.99605655670166
+    },
+    "PD:KM+no_noise": {
+      "mse": 16.01801109313965
+    },
+    "PD:KM+adaptive_cos": {
+      "mse": 16.170866012573242
+    },
+    "PD:Random+fixed_cos": {
+      "mse": 16.435688018798828
+    },
+    "PD:Random+adaptive_cos": {
+      "mse": 16.36103630065918
+    },
+    "K-means:from_random": {}
+  }
+}

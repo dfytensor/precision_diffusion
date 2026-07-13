@@ -1,0 +1,10 @@
+{
+  "K-means": 16.242944717407227,
+  "Lloyd-Max": 16.24299430847168,
+  "A: KM+PD(no noise)": 16.252716064453125,
+  "B: KM+raw Langevin": 306.3009948730469,
+  "C: KM+fixed Langevin": 16.63714027404785,
+  "D: KM+adaptive noise": 16.36431121826172,
+  "E: Random+fixed Lang": 16.773990631103516,
+  "F: Random+adaptive": 32.9874153137207
+}
