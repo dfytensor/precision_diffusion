@@ -1,0 +1,42 @@
+{
+  "baseline_uniform8b": {
+    "label": "Uniform 8b (v10 baseline, one-shot)",
+    "psnr": 39.550258438367955,
+    "bpp": 40.09375
+  },
+  "no_recovery_t2": {
+    "label": "No recovery: quantize@6b (one-shot)",
+    "psnr": 38.74771420373941,
+    "bpp": 36.09375
+  },
+  "no_recovery_t4": {
+    "label": "No recovery: quantize@2b (one-shot)",
+    "psnr": 20.532860057252833,
+    "bpp": 28.09375
+  },
+  "PD_t2_only": {
+    "label": "PD recovery from 6b (t=2¡ú0)",
+    "psnr": 37.81504470997638,
+    "bpp": 36.09375
+  },
+  "PD_t4_full": {
+    "label": "PD recovery from 2b (t=4¡ú0, full)",
+    "psnr": 24.978833090251147,
+    "bpp": 28.09375
+  },
+  "PD_t4_conservative": {
+    "label": "PD recovery from 2b (conservative)",
+    "psnr": 24.778853571255844,
+    "bpp": 28.09375
+  },
+  "PD_t4_aggressive": {
+    "label": "PD recovery from 2b (aggressive)",
+    "psnr": 24.98832852010644,
+    "bpp": 28.09375
+  },
+  "PD_t4_langevin": {
+    "label": "PD recovery from 2b (+ Langevin)",
+    "psnr": 24.467318891624945,
+    "bpp": 28.09375
+  }
+}

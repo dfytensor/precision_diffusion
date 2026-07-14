@@ -1,0 +1,47 @@
+{
+  "uniform8b": {
+    "label": "Uniform 8b (baseline)",
+    "psnr": 39.09488495158361,
+    "bpp": 40.09375
+  },
+  "uniform6b": {
+    "label": "Uniform 6b (one-shot)",
+    "psnr": 38.15640564597492,
+    "bpp": 36.09375
+  },
+  "uniform4b": {
+    "label": "Uniform 4b (one-shot)",
+    "psnr": 32.94142319652159,
+    "bpp": 32.09375
+  },
+  "uniform2b": {
+    "label": "Uniform 2b (one-shot)",
+    "psnr": 19.262627625834874,
+    "bpp": 28.09375
+  },
+  "pd_t4_norecovery": {
+    "label": "2b no recovery (one-shot)",
+    "psnr": 19.262627625834874,
+    "bpp": 28.09375
+  },
+  "pd_t4_recovery_orig": {
+    "label": "2b + PD recovery (orig decoder)",
+    "psnr": 23.93459967086888,
+    "bpp": 28.09375
+  },
+  "pd_t4_recovery_ft": {
+    "label": "2b + PD recovery + decoder FT",
+    "psnr": 29.842403109551086,
+    "bpp": 28.09375
+  },
+  "pd_t3_recovery_ft": {
+    "label": "4b + PD recovery + decoder FT",
+    "psnr": 34.0678928347551,
+    "bpp": 32.09375
+  },
+  "pd_t2_recovery_ft": {
+    "label": "6b + PD recovery + decoder FT",
+    "psnr": 37.25551797470597,
+    "bpp": 36.09375
+  }
+}
